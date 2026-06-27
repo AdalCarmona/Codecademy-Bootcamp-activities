@@ -59,12 +59,36 @@ p {
 .card {
     width: 180px;
     height: 150px;
-    border: 2px solid #000;
+    border: 1px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 22px;
-    background: rgb(194, 209, 218); 
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: rgb(104, 107, 112);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 footer {
