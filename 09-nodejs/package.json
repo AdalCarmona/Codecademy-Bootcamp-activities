@@ -1,0 +1,17 @@
+{
+  "name": "09-nodejs",
+  "version": "1.0.0",
+  "description": "In this challenge, you will build a Node.js command-line application that generates a professional README.md file based on user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "inquirer": "^14.0.2"
+  }
+}
